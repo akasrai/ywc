@@ -1,0 +1,54 @@
+Day 1: Introduction to Node.js
+
+Understanding Node.js
+
+1. Introduction to Node.js: What is Node.js, its features, and advantages
+2. Setting up Node.js environment: Installing Node.js, npm (Node Package Manager), and basic CLI commands
+3. Hello World with Node.js: Creating and running a simple Node.js script
+4. Asynchronous Programming in Node.js: Understanding callbacks and asynchronous nature of Node.js
+
+
+Building Web Applications with Node.js
+
+1. Introduction to Express.js: Overview of Express.js framework for building web applications
+2. Setting up an Express.js project: Installing Express.js, creating a basic server, and handling routes
+3. Working with Middleware: Introduction to middleware and how to use it in Express.js
+4. Building RESTful APIs: Creating REST endpoints to handle CRUD operations
+5. Postman: API testing
+6. Hands-on Exercise: Building a simple CRUD API with Express.js
+
+REST - JSON 
+
+Day 2: Introduction to MongoDB and Integration with Node.js
+
+Understanding MongoDB
+
+1. Introduction to MongoDB: What is MongoDB, its features, and advantages
+2. Installing MongoDB: Setting up MongoDB locally or using MongoDB Atlas (cloud-based MongoDB service)
+3. MongoDB Basics: Concepts such as databases, collections, documents, and CRUD operations
+4. Working with MongoDB Compass: Overview of MongoDB Compass GUI tool for managing MongoDB databases
+5. Hands-on Exercise: Performing CRUD operations with MongoDB shell
+
+Update - PUT
+Validation - 
+
+
+
+Integrating MongoDB with Node.js
+
+1. Introduction to MongoDB Driver for Node.js: Overview of the official MongoDB driver for Node.js
+2. Connecting to MongoDB from Node.js: Setting up connection to MongoDB from a Node.js application
+3. Building a RESTful API with MongoDB: Integrating MongoDB with Express.js to create a complete CRUD API
+4. Error Handling and Validation: Implementing error handling and data validation in Node.js with Express.js and MongoDB
+5. Deploying Node.js and MongoDB Application: Deploying a Node.js and MongoDB application to a cloud platform like Heroku
+
+
+Conclusion and Next Steps
+
+1. Resources and further learning: Recommended books, online tutorials, and documentation for learning more about Node.js, Express.js, MongoDB, and related technologies
+2. Q&A Session: Addressing any questions or concerns from participants
+
+
+Contact 
+https://www.linkedin.com/in/akasrai/
+https://adplist.org/mentors/akas-rai

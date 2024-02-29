@@ -1,0 +1,39 @@
+Install Node - https://nodejs.org/en/learn/getting-started/how-to-install-nodejs
+Version - v20
+
+1. create project folder - task-manager 
+2. Initialize node project - npm init
+3. Install express - npm install express --save-dev
+5. Install cors - npm install cors --save-dev
+6. Install nodemon - npm install nodemon --save-dev
+7. Add "type": "module" in package.json
+8. Create source folder src
+9. Create entry point - server.js
+10. Add script - "start": "nodemon ./src/server.js" in package.json
+
+REST API - JSON - 
+
+
+
+import { Router } from "express";
+import * as taskService from "../services/taskService.js";
+
+const taskController = Router();
+
+taskController.post("/create", (req, res) => {
+  return taskService.create(req, res);
+});
+
+taskController.get("/", (req, res) => {
+  return taskService.getAll(req, res);
+});
+
+taskController.get("/delete/:id", (req, res) => {
+  return taskService.remove(req, res);
+});
+
+taskController.post("/update/:id", (req, res) => {
+  return taskService.update(req, res);
+});
+
+export default taskController;

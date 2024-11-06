@@ -1,0 +1,17 @@
+watchman watch .
+watchman watch-list
+npx expo start
+npx create-expo-app@latest
+
+npm install expo-router
+npm install @expo/vector-icons
+
+package.json - "main": "expo-router/entry",
+
+
+my-expo-router-app/
+├── app/
+│   ├── _layout.js
+│   ├── index.js
+│   ├── settings.js
+│   ├── home.js

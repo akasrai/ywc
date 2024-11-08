@@ -13,12 +13,23 @@ export default function Layout() {
           ),
         }}
       />
+
       <Tabs.Screen
         name="screens/add-task"
         options={{
           title: "Add Task",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="add-circle-outline" color={color} size={size} />
+          ),
+        }}
+      />
+
+      <Tabs.Screen
+        name="screens/map"
+        options={{
+          title: "Map",
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="map-outline" color={color} size={size} />
           ),
         }}
       />

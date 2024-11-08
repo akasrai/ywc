@@ -13,5 +13,14 @@ my-expo-router-app/
 ├── app/
 │   ├── _layout.js
 │   ├── index.js
-│   ├── settings.js
-│   ├── home.js
+│   ├── screens/
+│   │   ├── add-tasks.js
+│   │   ├── tasks.js
+
+
+Using Native Device Features
+- npm install expo-location
+- npm install react-native-maps
+
+
+Push Notifications

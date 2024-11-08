@@ -86,10 +86,11 @@ const styles = StyleSheet.create({
   tasks: {
     flexDirection: "row",
     borderWidth: 1,
-    borderColor: "#cfcfcf",
+    borderColor: "#e0e0e0",
     borderRadius: 5,
     marginBottom: 10,
     padding: 15,
+    backgroundColor: "#fff",
   },
   detail: {
     flex: 1,
